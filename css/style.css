@@ -1,0 +1,66 @@
+html,body{
+    background: url('../img/bg.jpg') center center;
+    height: 100%;
+    background-size: cover;
+}
+@media(max-width:760px){
+    
+}
+#logo,img{
+    padding-top: 20px;
+}
+#intro,p{
+    color: white;
+    text-align: center;
+    font-family: 'Bilbo', cursive;
+    font-size: 1.8em;
+    margin-top: -10px;
+}
+#counter .countdown{
+    text-align: center;
+    color: white;
+    font-family: 'Bilbo', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    margin: -15px 0 0;
+}
+
+#icons{
+    text-align: center;
+}
+#icons .twitter,.google,.instagram,.facebook{
+    color: white;
+    margin: 5px 15px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+#icons .twitter:hover{
+    color:#00ACEE;
+    bottom: 20px;
+}
+#icons .facebook:hover{
+    color:#3b5998;
+    bottom: 10px;
+}
+#icons .google:hover{
+    color:#ea4335;
+    bottom: 10px;
+}
+#icons .instagram:hover{
+    color:#FCAF45;
+    bottom: 10px;
+}
+#signup{
+    text-align: center;
+}
+#signup,.form-inline{
+    display: block;
+}
+#signup .btn{
+    background-color: rgba(161, 186, 226,0.5);
+    color: white;
+}
+#signup .btn:hover{
+    background-color: rgba(37, 165, 82,1);
+}
