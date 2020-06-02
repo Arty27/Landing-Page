@@ -9,8 +9,7 @@
         <p>It also has a input field for recieving email id's of visitors. You can recieve the information through Google Forms or use
             PHP.
         </p>
-        <h4>Adjusting the Countdown</h4>
-        <hr>
+        <h3>Adjusting the Countdown</h3>
         <p>In index.html file there is a following piece of javascript code: <br>
 <pre><code>
     $(function() {
