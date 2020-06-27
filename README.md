@@ -10,12 +10,13 @@
         </p>
         <h3>Adjusting the Countdown</h3>
         <p>In index.html file there is a following piece of javascript code: <br>
-<pre><code>
+<code>
+<pre>
  $(function() {
      $('.countdown').countdown({
      date: "June 30 , 2021 15:03:26"});
- });</code></pre><br>
-
+ });
+</pre></code><br>
             Change the date as per your requirement,make sure the date is in similar format (<code>Month date, Year Time(24 hr format)</code>)
         </p>
     </body>
